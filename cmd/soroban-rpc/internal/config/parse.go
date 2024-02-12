@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hcnet/go/support/errors"
+	"github.com/sanjayhashcash/go/support/errors"
 )
 
 func parseBool(option *ConfigOption, i interface{}) error {

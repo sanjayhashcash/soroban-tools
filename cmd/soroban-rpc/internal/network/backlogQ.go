@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 
 	"github.com/creachadair/jrpc2"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/log"
+	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/sanjayhashcash/go/support/log"
 )
 
 const RequestBacklogQueueNoLimit = maxUint

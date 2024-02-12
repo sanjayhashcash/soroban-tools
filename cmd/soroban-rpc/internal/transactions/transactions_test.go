@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hcnet/go/network"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/network"
+	"github.com/sanjayhashcash/go/xdr"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hcnet/soroban-tools/cmd/soroban-rpc/internal/daemon/interfaces"
+	"github.com/sanjayhashcash/soroban-tools/cmd/soroban-rpc/internal/daemon/interfaces"
 )
 
 func expectedTransaction(t *testing.T, ledger uint32, feeBump bool) Transaction {

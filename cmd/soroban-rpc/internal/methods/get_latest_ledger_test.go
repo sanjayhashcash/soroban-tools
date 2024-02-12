@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	"github.com/creachadair/jrpc2"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/xdr"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hcnet/soroban-tools/cmd/soroban-rpc/internal/db"
+	"github.com/sanjayhashcash/soroban-tools/cmd/soroban-rpc/internal/db"
 )
 
 const (

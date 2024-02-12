@@ -1,9 +1,9 @@
 [package]
 name = "soroban-spec-json"
 description = "Soroban contract spec utilities for generating JSON."
-homepage = "https://github.com/hcnet/soroban-tools"
-repository = "https://github.com/hcnet/soroban-tools"
-authors = ["Hcnet Development Foundation <info@hcnet.org>"]
+homepage = "https://github.com/stellar/soroban-tools"
+repository = "https://github.com/stellar/soroban-tools"
+authors = ["stellar Development Foundation <info@stellar.org>"]
 readme = "README.md"
 license = "Apache-2.0"
 version.workspace = true
@@ -18,7 +18,7 @@ serde_derive = "1.0.82"
 serde_json = "1.0.82"
 sha2 = "0.9.9"
 
-[dependencies.hcnet-xdr]
+[dependencies.stellar-xdr]
 workspace = true
 features = ["curr", "std", "serde"]
 

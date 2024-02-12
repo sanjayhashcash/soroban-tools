@@ -7,14 +7,14 @@ import (
 
 	"github.com/creachadair/jrpc2"
 	"github.com/creachadair/jrpc2/jhttp"
-	"github.com/hcnet/go/txnbuild"
+	"github.com/sanjayhashcash/go/txnbuild"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/keypair"
+	"github.com/sanjayhashcash/go/xdr"
 
-	"github.com/hcnet/soroban-tools/cmd/soroban-rpc/internal/methods"
+	"github.com/sanjayhashcash/soroban-tools/cmd/soroban-rpc/internal/methods"
 )
 
 func TestGetLedgerEntryNotFound(t *testing.T) {

@@ -6,13 +6,13 @@ import (
 
 	"github.com/creachadair/jrpc2"
 	"github.com/creachadair/jrpc2/handler"
-	"github.com/hcnet/go/network"
-	proto "github.com/hcnet/go/protocols/hcnetcore"
-	"github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/network"
+	proto "github.com/sanjayhashcash/go/protocols/hcnetcore"
+	"github.com/sanjayhashcash/go/support/log"
+	"github.com/sanjayhashcash/go/xdr"
 
-	"github.com/hcnet/soroban-tools/cmd/soroban-rpc/internal/daemon/interfaces"
-	"github.com/hcnet/soroban-tools/cmd/soroban-rpc/internal/transactions"
+	"github.com/sanjayhashcash/soroban-tools/cmd/soroban-rpc/internal/daemon/interfaces"
+	"github.com/sanjayhashcash/soroban-tools/cmd/soroban-rpc/internal/transactions"
 )
 
 // SendTransactionResponse represents the transaction submission response returned Soroban-RPC

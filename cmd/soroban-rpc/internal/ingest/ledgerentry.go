@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/hcnet/go/ingest"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/ingest"
+	"github.com/sanjayhashcash/go/xdr"
 
-	"github.com/hcnet/soroban-tools/cmd/soroban-rpc/internal/db"
+	"github.com/sanjayhashcash/soroban-tools/cmd/soroban-rpc/internal/db"
 )
 
 func (s *Service) ingestLedgerEntryChanges(ctx context.Context, reader ingest.ChangeReader, tx db.WriteTx, progressLogPeriod int) error {

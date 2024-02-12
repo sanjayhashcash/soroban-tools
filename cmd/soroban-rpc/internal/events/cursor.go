@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hcnet/go/toid"
+	"github.com/sanjayhashcash/go/toid"
 )
 
 // Cursor represents the position of a Soroban event.

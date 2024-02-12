@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/hcnet/go/ingest"
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/ingest"
+	"github.com/sanjayhashcash/go/xdr"
 
-	"github.com/hcnet/soroban-tools/cmd/soroban-rpc/internal/daemon/interfaces"
-	"github.com/hcnet/soroban-tools/cmd/soroban-rpc/internal/ledgerbucketwindow"
+	"github.com/sanjayhashcash/soroban-tools/cmd/soroban-rpc/internal/daemon/interfaces"
+	"github.com/sanjayhashcash/soroban-tools/cmd/soroban-rpc/internal/ledgerbucketwindow"
 )
 
 type bucket struct {

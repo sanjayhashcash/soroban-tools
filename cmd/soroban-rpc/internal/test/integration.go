@@ -16,14 +16,14 @@ import (
 
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"github.com/hcnet/go/clients/hcnetcore"
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/txnbuild"
+	"github.com/sanjayhashcash/go/clients/hcnetcore"
+	"github.com/sanjayhashcash/go/keypair"
+	"github.com/sanjayhashcash/go/txnbuild"
 
-	"github.com/hcnet/soroban-tools/cmd/soroban-rpc/internal/config"
-	"github.com/hcnet/soroban-tools/cmd/soroban-rpc/internal/daemon"
-	"github.com/hcnet/soroban-tools/cmd/soroban-rpc/internal/db"
-	"github.com/hcnet/soroban-tools/cmd/soroban-rpc/internal/ledgerbucketwindow"
+	"github.com/sanjayhashcash/soroban-tools/cmd/soroban-rpc/internal/config"
+	"github.com/sanjayhashcash/soroban-tools/cmd/soroban-rpc/internal/daemon"
+	"github.com/sanjayhashcash/soroban-tools/cmd/soroban-rpc/internal/db"
+	"github.com/sanjayhashcash/soroban-tools/cmd/soroban-rpc/internal/ledgerbucketwindow"
 )
 
 const (
@@ -31,7 +31,7 @@ const (
 	hcnetCoreProtocolVersion  = 20
 	hcnetCorePort             = 11626
 	goModFile                   = "go.mod"
-	goMonorepoGithubPath        = "github.com/hcnet/go"
+	goMonorepoGithubPath        = "github.com/sanjayhashcash/go"
 	friendbotURL                = "http://localhost:8000/friendbot"
 	// Needed when Core is run with ARTIFICIALLY_ACCELERATE_TIME_FOR_TESTING=true
 	checkpointFrequency    = 8

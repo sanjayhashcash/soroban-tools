@@ -1,9 +1,9 @@
 [package]
 name = "soroban-spec-tools"
 description = "Tools for using a contract's XDR spec"
-homepage = "https://github.com/hcnet/soroban-tools"
-repository = "https://github.com/hcnet/soroban-tools"
-authors = ["Hcnet Development Foundation <info@hcnet.org>"]
+homepage = "https://github.com/stellar/soroban-tools"
+repository = "https://github.com/stellar/soroban-tools"
+authors = ["stellar Development Foundation <info@stellar.org>"]
 license = "Apache-2.0"
 readme = "README.md"
 version.workspace = true

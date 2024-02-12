@@ -4,13 +4,13 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/hcnet/go/xdr"
+	"github.com/sanjayhashcash/go/xdr"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hcnet/go/network"
+	"github.com/sanjayhashcash/go/network"
 
-	"github.com/hcnet/soroban-tools/cmd/soroban-rpc/internal/daemon/interfaces"
-	"github.com/hcnet/soroban-tools/cmd/soroban-rpc/internal/transactions"
+	"github.com/sanjayhashcash/soroban-tools/cmd/soroban-rpc/internal/daemon/interfaces"
+	"github.com/sanjayhashcash/soroban-tools/cmd/soroban-rpc/internal/transactions"
 )
 
 func txHash(acctSeq uint32) xdr.Hash {

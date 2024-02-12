@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/prometheus/client_golang/prometheus"
-	proto "github.com/hcnet/go/protocols/hcnetcore"
+	proto "github.com/sanjayhashcash/go/protocols/hcnetcore"
 )
 
 // Daemon defines the interface that the Daemon would be implementing.
