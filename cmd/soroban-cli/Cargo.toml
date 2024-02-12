@@ -1,9 +1,9 @@
 [package]
 name = "soroban-cli"
 description = "Soroban CLI"
-homepage = "https://github.com/hcnet/soroban-cli"
-repository = "https://github.com/hcnet/soroban-cli"
-authors = ["Hcnet Development Foundation <info@hcnet.org>"]
+homepage = "https://github.com/stellar/soroban-cli"
+repository = "https://github.com/stellar/soroban-cli"
+authors = ["stellar Development Foundation <info@stellar.org>"]
 license = "Apache-2.0"
 readme = "README.md"
 version = "20.1.0"
@@ -35,7 +35,7 @@ default = []
 opt = ["dep:wasm-opt"]
 
 [dependencies]
-hcnet-xdr = { workspace = true, features = ["cli"] }
+stellar-xdr = { workspace = true, features = ["cli"] }
 soroban-env-host = { workspace = true }
 soroban-spec = { workspace = true }
 soroban-spec-json = { workspace = true }
@@ -43,7 +43,7 @@ soroban-spec-rust = { workspace = true }
 soroban-spec-tools = { workspace = true }
 soroban-spec-typescript = { workspace = true }
 soroban-ledger-snapshot = { workspace = true }
-hcnet-strkey = { workspace = true }
+stellar-strkey = { workspace = true }
 soroban-sdk = { workspace = true }
 clap = { version = "4.1.8", features = [
     "derive",
