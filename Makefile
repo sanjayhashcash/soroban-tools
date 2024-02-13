@@ -14,7 +14,7 @@ ifeq ($(strip $(REPOSITORY_VERSION)),)
 endif  
 REPOSITORY_BRANCH := "$(shell git rev-parse --abbrev-ref HEAD)"
 BUILD_TIMESTAMP ?= $(shell date '+%Y-%m-%dT%H:%M:%S')
-GOLDFLAGS :=	-X 'github.com/hcnet/soroban-tools/cmd/soroban-rpc/internal/config.Version=${REPOSITORY_VERSION}' \
+GOLDFLAGS :=	-X 'github.com/sanjayhashcash/soroban-tools/cmd/soroban-rpc/internal/config.Version=${REPOSITORY_VERSION}' \
 				-X 'github.com/sanjayhashcash/soroban-tools/cmd/soroban-rpc/internal/config.CommitHash=${REPOSITORY_COMMIT_HASH}' \
 				-X 'github.com/sanjayhashcash/soroban-tools/cmd/soroban-rpc/internal/config.BuildTimestamp=${BUILD_TIMESTAMP}' \
 				-X 'github.com/sanjayhashcash/soroban-tools/cmd/soroban-rpc/internal/config.Branch=${REPOSITORY_BRANCH}'
